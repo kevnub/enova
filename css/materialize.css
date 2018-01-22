@@ -3,6 +3,13 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+.titlesize {
+    font-size: 80;
+}
+
+@media only screen and (min-width: 768px) {
+   .titlesize {font-size: 110;}
+}
 
 .thinp{
   font-weight: 300;
@@ -35,8 +42,15 @@ font-weight: 700;
 
 .fullp
 {
-  height:75vh;
+  height:50vh;
 }
+
+@media only screen and (min-width: 768px) {
+   .fullp{
+     height:75vh;
+   }
+}
+
 
 .fullpage
 {
