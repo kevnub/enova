@@ -7,11 +7,25 @@
     font-size: 80;
 }
 
+.captionsize{
+    font-size: 20;
+}
+
+h1.mobile{
+    font-size: 55;
+}
+
+tbody.mobile{
+    font-size: 12px;
+}
 .onsmall{ visibility: hidden;}
 
 @media only screen and (min-width: 768px) {
    .titlesize {font-size: 110;}
    .onsmall {visibility: visible;}
+   .captionsize{font-size: 30;}
+   h1.mobile{font-size: 64;}
+   tbody.mobile{font-size: 16px;}
 }
 
 .thinp{
