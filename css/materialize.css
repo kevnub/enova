@@ -15,6 +15,10 @@ h1.mobile{
     font-size: 45;
 }
 
+h2.mobile{
+    font-size: 40;
+}
+
 tbody.mobile{
     font-size: 12px;
 }
@@ -26,6 +30,7 @@ tbody.mobile{
    .captionsize{font-size: 30;}
    h1.mobile{font-size: 64;}
    tbody.mobile{font-size: 16px;}
+   h2.mobile{font-size: 55
 }
 
 .thinp{
