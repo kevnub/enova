@@ -7,8 +7,11 @@
     font-size: 80;
 }
 
+.onsmall{ visibility: hidden;}
+
 @media only screen and (min-width: 768px) {
    .titlesize {font-size: 110;}
+   .onsmall {visibility: visible;}
 }
 
 .thinp{
