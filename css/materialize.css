@@ -22,11 +22,11 @@ h2.mobile{
 tbody.mobile{
     font-size: 12px;
 }
-.onsmall{ visibility: hidden;}
+.onsmall{ visibility: hidden; display: none;}
 
 @media only screen and (min-width: 768px) {
    .titlesize {font-size: 110;}
-   .onsmall {visibility: visible;}
+   .onsmall {visibility: visible; display: inline;}
    .captionsize{font-size: 30;}
    h1.mobile{font-size: 64;}
    tbody.mobile{font-size: 16px;}
